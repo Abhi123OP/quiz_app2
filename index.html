@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quiz Test</h1>
+        
+        <div class="question" id="q1">
+            <p>When was Google Chrome first released?</p>
+            <label><input type="radio" name="q1" value="a"> 2007</label>
+            <label><input type="radio" name="q1" value="b"> 2008</label>
+            <label><input type="radio" name="q1" value="c"> 2009</label>
+            <label><input type="radio" name="q1" value="d"> 2010</label>
+        </div>
+        
+        <div class="question" id="q2">
+            <p>Which browser introduced tabbed browsing?</p>
+            <label><input type="radio" name="q2" value="a"> Internet Explorer</label>
+            <label><input type="radio" name="q2" value="b"> Firefox</label>
+            <label><input type="radio" name="q2" value="c"> Safari</label>
+            <label><input type="radio" name="q2" value="d"> Opera</label>
+        </div>
+        
+        <div class="question" id="q3">
+            <p>Who created the World Wide Web?</p>
+            <label><input type="radio" name="q3" value="a"> Tim Berners-Lee</label>
+            <label><input type="radio" name="q3" value="b"> Marc Andreessen</label>
+            <label><input type="radio" name="q3" value="c"> Steve Jobs</label>
+            <label><input type="radio" name="q3" value="d"> Larry Page</label>
+        </div>
+        
+        <div class="buttons-container">
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <!-- ✅ Semantic result section with heading and inner output container -->
+        <section id="result" class="result" ">
+            <h2>Quiz Result</h2>
+            <div id="score-output"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
